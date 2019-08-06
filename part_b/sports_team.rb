@@ -22,7 +22,10 @@ end
 
 
 
-
+# or 
+#    def has_player?(player)
+#     return @players.include?(player)
+#   end
 
 
 
