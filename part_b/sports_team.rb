@@ -8,22 +8,6 @@ def initialize(input_team_name, input_players, input_coach)
   @coach = input_coach
 end
 
-def team_name
-  return @team_name
-end
-
-def players
-  return @players
-end
-
-def coach
-  return @coach
-end
-
-def set_coach(new_coach)
-  @coach = new_coach
-end
-
 def new_player(new_player)
   @players.push(new_player)
 end
